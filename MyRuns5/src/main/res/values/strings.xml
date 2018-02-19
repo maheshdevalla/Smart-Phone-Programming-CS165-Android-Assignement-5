@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Start Fragment-->
+    <string name="start_input_type">Input Type</string>
+    <string name="start_activity_type">Activity Type</string>
+    <string name="info_input_type">Manual Entry</string>
+    <string name="info_date_time">Date and Time</string>
+    <string name="info_duration">Duration</string>
+    <string name="info_distance">Distance</string>
+    <string name="info_calories">Calories</string>
+    <string name="info_heartrate">Heart Rate</string>
+    <string-array name="start_array_input_type">
+        <item>Manual Entry</item>
+        <item>GPS</item>
+        <item>Automatic</item>
+    </string-array>
+    <string-array name="start_array_activity_type">
+        <item>Running</item>
+        <item>Walking</item>
+        <item>Standing</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Downhill Skiing</item>
+        <item>Cross-Country Skiing</item>
+        <item>Snowboarding</item>
+        <item>Skating</item>
+        <item>Swimming</item>
+        <item>Mountain Biking</item>
+        <item>Wheelchair</item>
+        <item>Elliptical</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="app_name">MyRuns4</string>
+
+    <!-- Menu -->
+    <string name="menu_delete">DELETE</string>
+
+    <!-- Tab Strings -->
+    <string name="ui_tabname_find">find</string>
+    <string name="ui_tabname_chat">chat</string>
+    <string name="ui_tabname_meet">meet</string>
+    <string name="ui_tabname_party">party</string>
+
+    <!-- Menu Strings -->
+    <string name="ui_menu_search">search</string>
+    <string name="ui_menu_send">send</string>
+    <string name="ui_menu_add">add</string>
+    <string name="ui_menu_quit">quit</string>
+    <string name="ui_menu_feedback">feedback</string>
+    <string name="ui_menu_about">about</string>
+    <string name="ui_menu_share">share</string>
+
+    <!-- Preference-->
+    <string name="ui_setting_account_preference">Account Preferences</string>
+    <string name="ui_setting_account_private_setting">Privacy Setting</string>
+    <string name="ui_setting_account_private_content">Posting your records anonymously</string>
+
+    <string name="ui_setting_account_profile">Name, Email, Class, etc</string>
+    <string name="ui_setting_account_profile_summay">User Profile</string>
+
+    <string name="ui_setting_addition">Additional Settings</string>
+    <string name="ui_setting_unit">Unit Preference</string>
+    <string name="ui_setting_select_unit">Select the units</string>
+
+    <string name="ui_setting_unit_preference">Unit Preference</string>
+
+    <string-array name="ui_setting_unit_preValues">
+        <item>
+            Metric (Kilometers)
+        </item>
+        <item>
+            Imperial (Miles)
+        </item>
+    </string-array>
+
+    <string name="ui_setting_comments">Comments</string>
+    <string name="ui_setting_leave_comments">Please enter your comments</string>
+
+    <string name="ui_setting_misc">Misc.</string>
+    <string name="ui_setting_webpage">Webpage</string>
+    <string name="ui_setting_webpage_content">www.google.com</string>
+
+
+    <!-- MyRuns1-->
+    <!-- Change this to whatever the course website will be -->
+    <string name="profile_photo_file_name">profile_photo.png</string>
+    <string name="dialog_fragment_tag_photo_picker">dialog_fragment_photo_picker</string>
+    <string name="ui_profile_toast_save_text">Profile saved</string>
+    <string name="ui_profile_toast_cancel_text">Change canceled</string>
+    <string name="ui_settings_profile_title">User Profile</string>
+    <string name="ui_settings_profile_summary">Names, Email, Class, etc</string>
+    <string name="ui_profile_photo_title">Profile photo:</string>
+    <string name="ui_profile_photo_content_description">Your profile photo:</string>
+    <string name="ui_profile_photo_picker_title">"Select profile image"</string>
+
+    <string-array name="ui_profile_photo_picker_items">
+        <item>Take picture from camera</item>
+        <item>Select from gallery</item>
+    </string-array>
+
+    <!-- SharedPreferences -->
+
+    <string name="preference_name">my_shared_preferences</string>
+    <string name="preference_key_profile_name">profile_name</string>
+    <string name="preference_key_profile_email">profile_email</string>
+    <string name="preference_key_profile_phone">profile_phone</string>
+    <string name="preference_key_profile_gender">profile_gender</string>
+    <string name="preference_key_profile_class">profile_class</string>
+    <string name="preference_key_profile_major">profile_major</string>
+
+    <!-- Weiqiang Liu-->
+    <string name="profile_name_title">Name</string>
+    <string name="profile_email_title">Email</string>
+    <string name="profile_phone_title">Phone</string>
+    <string name="profile_gender_title">Gender</string>
+    <string name="profile_class_title">Class</string>
+    <string name="profile_major_title">Major</string>
+
+
+    <string name="profile_name_hint">Your Name</string>
+    <string name="profile_email_hint">Your Email</string>
+    <string name="profile_phone_hint">Your Phone Number</string>
+    <string name="profile_class_hint">eg. 2012</string>
+    <string name="profile_major_hint">Your major</string>
+
+    <string name="profile_gender_female">Female</string>
+    <string name="profile_gender_male">Male</string>
+
+    <string name="profile_save_button">SAVE</string>
+    <string name="profile_cancel_button">CANCEL</string>
+    <string name="profile_change_button">CHANGE</string>
+
+    <string name="menu_settings">settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_show_map">Map</string>
+</resources>

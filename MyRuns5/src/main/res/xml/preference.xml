@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:title="@string/ui_setting_account_preference">
+
+        <PreferenceScreen
+            android:title="@string/ui_setting_account_profile"
+            android:summary="@string/ui_setting_account_profile_summay"
+            >
+            <intent android:action="your.action.string">
+            </intent>
+        </PreferenceScreen>
+        <CheckBoxPreference
+            android:key="Privacy Setting"
+            android:title="@string/ui_setting_account_private_setting"
+            android:summary="@string/ui_setting_account_private_content"
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/ui_setting_addition">
+        <ListPreference
+            android:key="Unit Preference"
+            android:title="@string/ui_setting_unit"
+            android:summary="@string/ui_setting_select_unit"
+            android:dialogTitle="@string/ui_setting_unit_preference"
+            android:entries="@array/ui_setting_unit_preValues"
+            android:entryValues="@array/ui_setting_unit_preValues"/>
+
+        <EditTextPreference
+            android:key="Comments"
+            android:title="@string/ui_setting_comments"
+            android:summary="@string/ui_setting_leave_comments"
+            android:dialogTitle="@string/ui_setting_comments"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/ui_setting_misc">
+        <PreferenceScreen
+            android:key="Webpage"
+            android:title="@string/ui_setting_webpage"
+            android:summary="@string/ui_setting_webpage_content">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data=""/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>
